@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap');
 .content{
     width: 90%;
     margin: 0 auto;
@@ -25,6 +25,7 @@
 }
 .first-screen{
     background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
 }
 .logo{
     width: 150px;
@@ -59,7 +60,7 @@
 .first-screen_txt{
     margin-top: 40px;
     width: 445px;
-    font-family: 'Open Sans';
+    font-family: 500 'Open Sans';
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
@@ -77,5 +78,8 @@
     cursor: pointer;
 }
 .first-screen_main_cnt{
-    margin-left: 50git checkout -b new-page-header0px;
+    margin-left: 500px;
+}
+.slider{
+    margin-top: 100px;
 }
