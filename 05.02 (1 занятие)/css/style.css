@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+.content-part2{
+    width: 60%;
+    margin: 0 auto;
+}
+.eEWGw{
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+    margin-left: 300px;
+
+}
+.container{
+    background-image: url(../img/Шапка.png);
+}
+.first-screen{
+    background-image: url(../img/фон.png);
+}
+.logo{
+    width: 150px;
+}
+.first-screen_header{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+.first-screen_header-menu{
+    margin: 0 auto;
+}
+.first-screen_header-menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 30px;
+}
+.first-screen_main{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.first-screen_title{
+    width: 800px;
+    font-size: 48px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    line-height: 71px;
+}
+.first-screen_txt{
+    margin-top: 40px;
+    width: 445px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.first-screen_btn{
+    margin-top: 40px;
+    width: 160px;
+    color: #FFFFFF;
+    border: 2px white solid;
+    background: none;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+.first-screen_main_cnt{
+    margin-left: 50git checkout -b new-page-header0px;
+}
